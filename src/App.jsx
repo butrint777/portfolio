@@ -47,10 +47,7 @@ function App() {
               <FaGithub size={40} />
               <span>GitHub</span>
             </div>
-            <div className="skill">
-              <FaLinkedin size={40} />
-              <span>LinkedIn</span>
-            </div>
+        
           </div>
         </div>
       </section>
