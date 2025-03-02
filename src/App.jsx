@@ -1,5 +1,6 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaLinkedin, FaEnvelope, FaMicrosoft, FaNodeJs, FaLinux } from "react-icons/fa";
+import { SiJson, SiMongodb } from "react-icons/si";
 import "./App.css";
 
 function App() {
@@ -47,7 +48,26 @@ function App() {
               <FaGithub size={40} />
               <span>GitHub</span>
             </div>
-        
+            <div className="skill">
+              <FaMicrosoft size={40} />
+              <span>Microsoft Office</span>
+            </div>
+            <div className="skill">
+              <FaNodeJs size={40} />
+              <span>NodeJs</span>
+            </div>
+            <div className="skill">
+              <FaLinux size={40} />
+              <span>Linux</span>
+            </div>
+            <div className="skill">
+              <SiJson size={40} />
+              <span>JSON</span>
+            </div>
+            <div className="skill">
+              <SiMongodb size={40} />
+              <span>MongoDB</span>
+            </div>
           </div>
         </div>
       </section>
@@ -71,21 +91,21 @@ function App() {
             </div>
           </div>
           <div className="project">
-  <h3>Food Delivery App</h3>
-  <p>
-    Our final project in the DCI course – a food delivery app developed by a team of 4 students, featuring real-time order tracking.
-  </p>
-  <div className="project-btn-wrapper">
-    <a
-      href="https://deliveats-food-delivery-app.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-btn"
-    >
-      View Project
-    </a>
-  </div>
-</div>
+            <h3>Food Delivery App</h3>
+            <p>
+              Our final project in the DCI course – a food delivery app developed by a team of 4 students, featuring real-time order tracking.
+            </p>
+            <div className="project-btn-wrapper">
+              <a
+                href="https://deliveats-food-delivery-app.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
