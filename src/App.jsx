@@ -1,5 +1,16 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaLinkedin, FaEnvelope, FaMicrosoft, FaNodeJs, FaLinux } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaMicrosoft,
+  FaNodeJs,
+  FaLinux,
+} from "react-icons/fa";
 import { SiJson, SiMongodb } from "react-icons/si";
 import "./App.css";
 
@@ -14,9 +25,11 @@ function App() {
             <div className="bio">
               <h1>Butrint Hasanaj</h1>
               <p>
-                I'm a passionate Front-End Developer with 15 months of experience. I am dedicated to
-                building clean, responsive websites using HTML, CSS, JavaScript, and React. Based in Germany, I
-                enjoy taking on challenging projects and solving problems through code.
+                I'm a passionate Front-End Developer with 15 months of
+                experience. I am dedicated to building clean, responsive
+                websites using HTML, CSS, JavaScript, and React. Based in
+                Germany, I enjoy taking on challenging projects and solving
+                problems through code.
               </p>
             </div>
           </div>
@@ -74,46 +87,73 @@ function App() {
 
       {/* Projects Section */}
       <section className="projects">
-        <div className="container">
-          <h2>My Projects</h2>
-          <div className="project">
-            <h3>Horror Movies Project</h3>
-            <p>A fun project displaying a list of horror movies with information and trailers.</p>
-            <div className="project-btn-wrapper">
-              <a
-                href="https://project1-mauve-omega.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-btn"
-              >
-                View Project
-              </a>
-            </div>
-          </div>
-          <div className="project">
-            <h3>Food Delivery App</h3>
-            <p>
-              Our final project in the DCI course – a food delivery app developed by a team of 4 students, featuring real-time order tracking.
-            </p>
-            <div className="project-btn-wrapper">
-              <a
-                href="https://deliveats-food-delivery-app.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-btn"
-              >
-                View Project
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <h2>My Projects</h2>
+    <div className="project">
+      <h3>Horror Movies Project</h3>
+      <p>
+        A fun project displaying a list of horror movies with information
+        and trailers.
+      </p>
+      <div className="project-btn-wrapper">
+        <a
+          href="https://project1-mauve-omega.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-btn"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+    <div className="project">
+      <h3>Food Delivery App</h3>
+      <p>
+        Our final project in the DCI course – a food delivery app
+        developed by a team of 4 students, featuring real-time order
+        tracking.
+      </p>
+      <div className="project-btn-wrapper">
+        <a
+          href="https://deliveats-food-delivery-app.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-btn"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+    {/* Add Habit Tracker Project */}
+    <div className="project">
+      <h3>Habit Tracker</h3>
+      <p>
+        A simple habit tracker where you can add, track, and delete habits.
+        Keep track of your progress over time with streaks and habit completion.
+      </p>
+      <div className="project-btn-wrapper">
+        <a
+          href="https://habit-tracker-snowy-five.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-btn"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section className="contact">
         <div className="container">
           <h2>Contact Me</h2>
-          <p>If you want to work with me or have any questions, feel free to reach out!</p>
+          <p>
+            If you want to work with me or have any questions, feel free to
+            reach out!
+          </p>
           <div className="contact-info">
             <div className="contact-item">
               <FaEnvelope size={20} />
